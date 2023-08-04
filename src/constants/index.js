@@ -121,12 +121,12 @@ const experiences = [
     company_name: "Cloud Computing Club",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and developing cloud-native applications using cloud services and technologies.",
+      "Provide guidance and mentorship to junior members by sharing your knowledge and experience in cloud computing and development",
+      "Cover topics such as cloud architecture, programming languages, and relevant tools.",
     ],
   },
   {
@@ -134,12 +134,11 @@ const experiences = [
     company_name: "PWC",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning Salesforce Basics, Programming in Java, It-Fundamentals, RDBMS.",
+      "Familiarize yourself with the Salesforce platform, its different editions, and key features.",
+      "Understand the concept of CRM and how Salesforce is used to manage customer data and interactions."
     ],
   },
   /*{
@@ -199,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JOINT-VENTURE-FUNDING",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Blockchain-based Joint-Venture Funding app with automated smart contracts for streamlined investment transactions.",
     tags: [
       {
-        name: "react",
+        name: "next-js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -217,40 +216,40 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VCharanRaju12/JOINT-VENTURE-FUNDING/",
   },
   {
-    name: "Job IT",
+    name: "ToDoBlockchainApp",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Blockchain-based Todo app using smart contracts for secure task management where users can securely add, update, and complete tasks.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VCharanRaju12/todoblockchainapp",
   },
   {
-    name: "Trip Guide",
+    name: "Iphone-threejs-webite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application using Front-end languages like HTML,CSS and ReactJS and three-js has been used in creation.",
     tags: [
       {
-        name: "nextjs",
+        name: "three-js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
@@ -259,7 +258,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://apple-iphone-threejs-website.netlify.app/",
   },
 ];
 
