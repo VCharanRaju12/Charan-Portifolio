@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Charan RaJu",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "charanraju047@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -59,7 +59,8 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Ahh, something went wrong. Please contact me through Linkedin.");
+          alert("https://www.linkedin.com/in/charanraju1/")
         }
       );
   };
